@@ -1,7 +1,13 @@
 const section = document.getElementById('counter');
 const text = document.createElement('h3');
+const lambdaurl = 'https://62n52ezwl8.execute-api.us-west-2.amazonaws.com/Prod/counter/'
+const params = {
+    method: 'GET',
+    headers: new Headers(),
+    mode: 'cors'
+}
 
-fetch('https://62n52ezwl8.execute-api.us-west-2.amazonaws.com/Prod/counter/')
+fetch(lambdaurl, params)
     .then(res => res.json())
     .then(visitor => {
         text.innerText = `You are visitor #${visitor.Visits}.`;
