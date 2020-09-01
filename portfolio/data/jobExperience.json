@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "name": "NUBIX",
+      "type": "Job",
+      "date": "May 2019 - July 2019",
+      "role": "Junior Developer",
+      "description": "Maintenance of the company's main platform, mainly bug fixing and improvement of code's quality. Implementation of new functionalities for the main platform and different services. Mainly coded in **JavaScript ES6**, using **Node.JS**, both locally and at **AWS Lambda**.",
+      "tasks": [
+        "Developed a **GCP Function** in **Python** for the classification and storage, in **AirTable**, of mastography results the moment they were interpreted and uploaded to the main platform.",
+        "Developed a small **Scala** application to add climate and geolocation information to patients' interpretations. Using **Google Maps Elevation** and **Geocoding APIs**, and **Dark Sky API**. Developed as a preprocessing step that lead to Data Science analysis, processing around **40,000** patients."
+      ]
+    },
+    {
+      "name": "NUBIX",
+      "type": "Internship",
+      "date": "May 2019 - July 2019",
+      "role": "QA Engineer",
+      "description": "Comprenhensive analysis of the main platform code's quality considering various points of view, such as security analysis.",      
+      "tasks": [
+        "Around **50** minor vulnerabiities detected.",
+        "Reduced around 300 lines of code of the mains service.",
+        "Usage of **RetireJS**, **AuditJS**, **ESLint** configured with **StandardJS**, and **ShellCheck**."
+      ]
+    }
+  ]
+}
