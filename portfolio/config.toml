@@ -40,6 +40,9 @@ pygmentsCodeFences=true
   medium = "https://medium.com/"
   hackerrank = "https://hackerrank.com/"
 
+[params.sidebar]
+  backgroundImage = "images/sidebar.jpg"
+
 [menu]
 
 [[menu.main]]
