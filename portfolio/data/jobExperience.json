@@ -3,7 +3,7 @@
     {
       "name": "NUBIX",
       "type": "Job",
-      "date": "May 2019 - July 2019",
+      "date": "August 2019 - May 2020",
       "role": "Junior Developer",
       "description": "Maintenance of the company's main platform, mainly bug fixing and improvement of code's quality. Implementation of new functionalities for the main platform and different services. Mainly coded in **JavaScript ES6**, using **Node.JS**, both locally and at **AWS Lambda**.",
       "tasks": [
