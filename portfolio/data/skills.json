@@ -1,0 +1,49 @@
+{
+  "skillset": [
+    {
+      "type": "Programming Languages",
+      "set": [
+        "Scala",
+        "Java 8",
+        "JavaScript ES6",
+        "Python 3"
+      ]
+    },
+    {
+      "type": "Cloud Computing",
+      "set": [
+        "AWS Lambda",
+        "AWS S3",
+        "Heroku"
+      ]
+    },
+    {
+      "type": "Databases",
+      "set": [
+        "PostgreSQL",
+        "AWS DynamoDB"
+      ]
+    },
+    {
+      "type": "Web Development",
+      "set": [
+        "Node.js",
+        "Express.js",
+        "JQuery",
+        "Pug",
+        "HTML 5",
+        "CSS"
+      ]
+    },
+    {
+      "type": "Project Management",
+      "set": [
+        "Git",
+        "Github",
+        "BitBucket",
+        "Trello",
+        "Asana"
+      ]
+    }
+  ]
+}
