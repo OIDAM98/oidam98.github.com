@@ -43,6 +43,10 @@ pygmentsCodeFences=true
 [params.sidebar]
   backgroundImage = "images/sidebar.jpg"
 
+#[params.contact]
+#  email = "oscar.ivan98@gmail.com"
+#  text= "Feel free to contact me"
+
 [menu]
 
 [[menu.main]]
