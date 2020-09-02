@@ -35,10 +35,10 @@ pygmentsCodeFences=true
   portfolio = "project"
 
 [params.social]
-  github = "https://github.com/"
-  linkedin = "https://www.linkedin.com/in/"
+  github = "https://github.com/OIDAM98"
+  linkedin = "https://www.linkedin.com/in/oscar-de-alva-98pu10098"
   medium = "https://medium.com/"
-  hackerrank = "https://hackerrank.com/"
+  hackerrank = "https://www.hackerrank.com/oscar_ivan98"
 
 [params.sidebar]
   backgroundImage = "images/sidebar.jpg"
