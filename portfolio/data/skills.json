@@ -4,8 +4,8 @@
       "type": "Programming Languages",
       "set": [
         "Scala",
-        "Java 8",
         "JavaScript ES6",
+        "Java 8",
         "Python 3"
       ]
     },
@@ -18,6 +18,15 @@
       ]
     },
     {
+      "type": "Backend Development",
+      "set": [
+        "Node.js",
+        "Express.js",
+        "Http4s",
+        "Cask"
+      ]
+    },
+    {
       "type": "Databases",
       "set": [
         "PostgreSQL",
@@ -25,14 +34,13 @@
       ]
     },
     {
-      "type": "Web Development",
+      "type": "Frontend Development",
       "set": [
-        "Node.js",
-        "Express.js",
-        "JQuery",
-        "Pug",
         "HTML 5",
-        "CSS"
+        "CSS",
+        "Hugo",
+        "JQuery",
+        "Pug"
       ]
     },
     {
