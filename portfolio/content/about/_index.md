@@ -8,4 +8,14 @@ draft: false
 
 This is my about page. :wave:
 
-Lorem ipsum dolor sit amet, :smile: consectetur adipisicing elit. Voluptates aut, tenetur distinctio voluptatibus ab. Nihil id dignissimos unde, tenetur iusto facilis suscipit corporis, ipsam necessitatibus, eaque iste deleniti consequuntur reprehenderit? :earth_africa:
+Have been programming since the beginning of my college life, and I am very enthusiastic about learning new topics, both related and non-related to technology.
+
+Currently I am very excited about using *Scala* and learning more about *Functional Programming* and along with its use cases in common software problems. Also, I'm interested in learning about *Cloud Computing* and how it has changed the way we think about the problems and the solutions for currrent problems.
+
+Special thanks:
+
+  - Sidebar background image: created by [Harryarts](https://www.freepik.com/Harryarts "Harryarts").
+  - Theme used for the website: [Responsive Resume](https://philipcdavis.com/responsive-resume/ "Responsive Resume").
+  - FavIcon made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") from [FlatIcon](www.flaticon.com "FlatIcon").
+
+> This resume website was built for the [#CloudResumeChallenge](https://forrestbrazeal.com/2020/04/23/the-cloud-resume-challenge/ "#CloudResumeChallenge").
