@@ -42,13 +42,15 @@ pygmentsCodeFences=true
 
 [params.sidebar]
   backgroundImage = "images/sidebar.jpg"
+  logo = "images/oscar-dealva.jpg"
 
 [params.assets]
   favicon = "images/favicon.jpg"
+  customCSS = "css/style.css"
 
-#[params.contact]
-#  email = "oscar.ivan98@gmail.com"
-#  text= "Feel free to contact me"
+[params.contact]
+  email = "oscar.ivan98@gmail.com"
+  text= "Contact me"
 
 [menu]
 
@@ -85,3 +87,24 @@ pygmentsCodeFences=true
     respectDoNotTrack = true
     useSessionStorage = false
 
+[deployment]
+
+[[deployment.targets]]
+  name = "s3"
+  URL = "s3://oscarresume?region=us-west-2"
+  cloudFrontDistributionID = "E1R74O267LSPQR"
+
+[[deployment.matchers]]
+#  Cache static assets for 1 year.
+  pattern = "^.+\\.(js|css|svg|ttf)$"
+  cacheControl = "max-age=31536000, no-transform, public"
+  gzip = true
+
+[[deployment.matchers]]
+  pattern = "^.+\\.(png|jpg)$"
+  cacheControl = "max-age=31536000, no-transform, public"
+  gzip = false
+
+[[deployment.matchers]]
+  pattern = "^.+\\.(html|xml|json)$"
+  gzip = true
