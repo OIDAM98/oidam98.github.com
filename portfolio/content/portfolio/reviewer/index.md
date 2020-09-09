@@ -9,10 +9,10 @@ thumbnail: reviewer/thumb.jpg
 projectUrl: https://github.com/OIDAM98/Reviewer-for-Reddit
 ---
 
-A simple React Native application which let's the user browse Reddit and save desired posts to a relational database hosted in Heroku. 
-
-It was developed as the final project for Mobile Applications course (LIS4071).
+A simple React Native application which let's the user browse Reddit and save desired posts to a relational database hosted in Heroku. It was developed using the TypeScript byndings for React Native 0.61.5 along with the data models of the application and the REST requests to Reddit and the database server.
 
 The database server was developed using JavaScript ES6 with Node.Js/Express in order to expose a simple REST API that the application connects to in order for the data to be saved.
 
 The Free tier of Heroku was used to deploy the server due to its ease of use and the advantages to a small side project like this one.
+
+It was developed as the final project for Mobile Applications course (LIS4071).
