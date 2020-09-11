@@ -93,7 +93,7 @@ pygmentsCodeFences=true
 [[deployment.targets]]
   name = "s3"
   URL = "s3://[AWS_S3_BUCKET]?region=[AWS_REGION]"
-  cloudFrontDistributionID = "[AWS_CLOUDFRONT_ID]""
+  cloudFrontDistributionID = "[AWS_CLOUDFRONT_ID]"
 
 [[deployment.matchers]]
 #  Cache static assets for 1 year.
