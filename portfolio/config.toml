@@ -1,4 +1,4 @@
-baseURL = "http://oscardealva.com/"
+baseURL = "https://oscardealva.com/"
 languageCode = "en-us"
 title = "Oscar De Alva"
 theme = "personal-web"
@@ -8,6 +8,7 @@ enableEmoji = true
 enableRobotsTXT = true
 pygmentsUseClasses=true
 pygmentsCodeFences=true
+# uglyurls = true
 
 [params.intro]
   main = "Hi, I'm Oscar :wave:"
