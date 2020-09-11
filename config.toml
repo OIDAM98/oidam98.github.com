@@ -1,0 +1,111 @@
+baseURL = "https://oscardealva.com/"
+languageCode = "en-us"
+title = "Oscar De Alva"
+theme = "personal-web"
+copyright = "© Oscar De Alva"
+googleAnalytics = ""
+enableEmoji = true
+enableRobotsTXT = true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+# uglyurls = true
+
+[params.intro]
+  main = "Hi, I'm Oscar :wave:"
+  sub = "I'm a new graduate of CS Engineering and aspiring Data Engineer."
+
+[params.main]
+  latestPublishHeader = "My Latest Project"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio']
+
+[params.notFound]
+  gopher = "/images/gopher.png"
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
+
+[params.sections]
+  post = "article"
+  portfolio = "project"
+
+[params.social]
+  github = "https://github.com/OIDAM98"
+  linkedin = "https://www.linkedin.com/in/oscar-de-alva-98pu10098"
+  medium = "https://medium.com/"
+  hackerrank = "https://www.hackerrank.com/oscar_ivan98"
+
+[params.sidebar]
+  backgroundImage = "images/sidebar.jpg"
+  logo = "images/oscar-dealva.jpg"
+
+[params.assets]
+  favicon = "images/favicon.jpg"
+  customCSS = "css/style.css"
+
+[params.contact]
+  email = "oscar.ivan98@gmail.com"
+  text= "Contact me"
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About section"
+  url = "/about/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio"
+  url = "/portfolio/"
+  weight = -110
+
+[[menu.main]]
+  identifier = "resume"
+  name = "Resume"
+  title = "Resume"
+  url = "/resume/"
+  weight = -100
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+
+[deployment]
+
+[[deployment.targets]]
+  name = "s3"
+  URL = "s3://[AWS_S3_BUCKET]?region=[AWS_REGION]"
+  cloudFrontDistributionID = "[AWS_CLOUDFRONT_ID]""
+
+[[deployment.matchers]]
+#  Cache static assets for 1 year.
+  pattern = "^.+\\.(js|css|svg|ttf)$"
+  cacheControl = "max-age=31536000, no-transform, public"
+  gzip = true
+
+[[deployment.matchers]]
+  pattern = "^.+\\.(png|jpg)$"
+  cacheControl = "max-age=31536000, no-transform, public"
+  gzip = false
+
+[[deployment.matchers]]
+  pattern = "^.+\\.(html|xml|json)$"
+  gzip = true
