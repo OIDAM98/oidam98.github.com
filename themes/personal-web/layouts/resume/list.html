@@ -1,0 +1,16 @@
+{{ partial "header" .}}
+
+<h1>{{ .Title }}</h1>
+
+<div class="resume-content">
+  {{ .Content }}
+  
+  {{ partial "resume/jobs" .}}
+  
+  {{ partial "resume/education" .}}
+  
+  {{ partial "resume/skills" .}}
+
+</div>
+
+{{ partial "footer" .}}

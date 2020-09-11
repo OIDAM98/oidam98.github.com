@@ -1,0 +1,19 @@
+<div class="portfolio-list">
+  <h2 class="portfolio-title">{{ .Title }}</h2>
+  <a href="{{.RelPermalink}}">
+    <div class="portfolio-container">
+      {{if .Params.Thumbnail}}
+        <img title="{{.Title}}" alt="{{.Title}}" src="/portfolio/{{ .Params.Thumbnail }}" />
+      {{else}}
+        <img title="{{.Title}}" alt="{{.Title}}" src="{{"images/github.jpg" | relURL}}" />
+      {{end}}
+        <div class="img-overlay">
+        </div>
+        <div class="portfolio-details">
+          <h4><span>{{ .Params.description }}</span></h4>
+          <p class="small">{{ delimit .Params.Work ", " | safeHTML }}</p>
+          <p class="small">{{ .Params.jobDate }}</p>
+        </div>
+      </div>
+    </a>
+</div>

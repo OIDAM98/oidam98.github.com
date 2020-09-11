@@ -1,0 +1,29 @@
+<h2>Education</h2>
+
+<section class="education-container">
+  {{range .Site.Data.education.degrees}}
+    <section class="education-header">
+      <h3>{{.name}}</h3>
+      <p class="education-date">{{.date}}</p>
+      <h4>{{.major}}</h4>
+    </section>
+    <section class="education-footer">
+      <div class="education-highlights">
+        <ul>
+          {{range .highlights}}
+          <li>
+            <p>
+              {{.name | markdownify }} (<em>{{.date}}</em>)
+            </p>
+            <ul>
+              {{range .accomplishments}}
+              <li>{{. | markdownify }}</li>
+              {{end}}
+            </ul>
+          </li>
+          {{end}}
+        </ul>
+      </div>
+    </section>
+  {{end}}
+</section>

@@ -1,0 +1,16 @@
+<h2>Skills</h2>
+
+<section class="skills-container">
+  <table>
+    {{range .Site.Data.skills.skillset }}
+    <section class="skillset">
+      <h4>{{.type}}</h4>
+      <ul>
+        {{range .set}}
+          <li>{{.}}</li>
+        {{end}}
+      </ul>
+    </section>
+    {{end}}
+  </table>
+</section>

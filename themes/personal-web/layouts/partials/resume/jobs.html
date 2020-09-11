@@ -1,0 +1,27 @@
+<h2>Experience</h2>
+
+{{range .Site.Data.jobExperience.jobs }}
+  <section class="experience-container">
+    <section class="experience-header">
+      <h3>{{.name}}</h3>
+      {{if .type}}
+        <h4 class="experience-type">{{.type}}</h4>
+      {{end}}
+    </section>
+    <section class="experience-info">
+      <h4 class="experience-role">{{.role}}</h4>
+      <p class="experience-date">{{.date}}</p>
+    </section>
+    <hr>
+    <section class="experience-description">
+      <p>
+        {{.description | markdownify }}
+      </p>
+      <ul>
+        {{range .tasks}}
+          <li>{{. | markdownify }}</li>
+        {{end}}
+      </ul>
+    </section>
+  </section>
+{{end}}
