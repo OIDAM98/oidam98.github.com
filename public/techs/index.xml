@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techs on Oscar De Alva</title>
+    <link>https://oscardealva.com/techs/</link>
+    <description>Recent content in Techs on Oscar De Alva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Oscar De Alva</copyright>
+    <lastBuildDate>Mon, 31 Aug 2020 11:53:09 -0500</lastBuildDate>
+    
+	<atom:link href="https://oscardealva.com/techs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Heroku</title>
+      <link>https://oscardealva.com/techs/heroku/</link>
+      <pubDate>Mon, 31 Aug 2020 11:53:09 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript ES6</title>
+      <link>https://oscardealva.com/techs/javascript-es6/</link>
+      <pubDate>Mon, 31 Aug 2020 11:53:09 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/javascript-es6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>https://oscardealva.com/techs/node.js/</link>
+      <pubDate>Mon, 31 Aug 2020 11:53:09 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://oscardealva.com/techs/postgresql/</link>
+      <pubDate>Mon, 31 Aug 2020 11:53:09 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React Native</title>
+      <link>https://oscardealva.com/techs/react-native/</link>
+      <pubDate>Mon, 31 Aug 2020 11:53:09 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/react-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TypeScript</title>
+      <link>https://oscardealva.com/techs/typescript/</link>
+      <pubDate>Mon, 31 Aug 2020 11:53:09 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scala</title>
+      <link>https://oscardealva.com/techs/scala/</link>
+      <pubDate>Sun, 05 Jul 2020 16:22:59 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/scala/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scala Parser Combinators</title>
+      <link>https://oscardealva.com/techs/scala-parser-combinators/</link>
+      <pubDate>Sun, 05 Jul 2020 16:22:59 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/scala-parser-combinators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gradle</title>
+      <link>https://oscardealva.com/techs/gradle/</link>
+      <pubDate>Tue, 05 May 2020 16:13:57 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/gradle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java 8</title>
+      <link>https://oscardealva.com/techs/java-8/</link>
+      <pubDate>Tue, 05 May 2020 16:13:57 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/java-8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java Swing</title>
+      <link>https://oscardealva.com/techs/java-swing/</link>
+      <pubDate>Tue, 05 May 2020 16:13:57 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/java-swing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Doobie</title>
+      <link>https://oscardealva.com/techs/doobie/</link>
+      <pubDate>Tue, 07 Jan 2020 16:03:55 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/doobie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scala Swing</title>
+      <link>https://oscardealva.com/techs/scala-swing/</link>
+      <pubDate>Tue, 07 Jan 2020 16:03:55 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/scala-swing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ScalaCheck</title>
+      <link>https://oscardealva.com/techs/scalacheck/</link>
+      <pubDate>Tue, 07 Jan 2020 16:03:55 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/scalacheck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ScalaTest</title>
+      <link>https://oscardealva.com/techs/scalatest/</link>
+      <pubDate>Tue, 07 Jan 2020 16:03:55 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/techs/scalatest/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

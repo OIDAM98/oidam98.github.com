@@ -1,0 +1,50 @@
+{
+  "degrees": [
+    {
+      "name": "Universidad de las Américas Puebla",
+      "date": "August 2016 - May 2020",
+      "major": "B.S. Computer Systems Engineering",
+      "highlights": [
+        {
+          "name": "**Secretary**, Computer System's Student board.",
+          "date": "August 2018 - May 2019",
+          "accomplishments": [
+            "Organized 4 sessions that were aimed towards competitive programming, where **15** students attended on average.",
+            "Helped organizing a Welcoming Party for new students of the major, being on charge of selling tickets and organizing the area. On average, **210** students attended.",
+            "Was in charge of organizing important documents for the student board, like calendars and memories.",
+            "Organized meetings with the members of the student board and making minutes."
+          ]
+        },
+        {
+          "name": "**Participant**, Hackathon BBVA 2019.",
+          "date": "September 2019",
+          "accomplishments": [
+            "Developed a basic blockchain with **Ethereum**, using **Go**, in order for banking transactions to be under a blockchain.",
+            "Only a small prototype was developed.",
+            "Collaborated with a senior developer and a UX designer.",
+            "Project developed for the ***Accenture Challenge***."
+          ]
+        },
+        {
+          "name": "**Participant**, Hackathon BBVA 2018.",
+          "date": "September 2018",
+          "accomplishments": [
+            "Developed a *mobile application*, using **Java**, which goal was to help small and medium sized stores manage their sales and inventory within their smartphones.",
+            "Collaborated within a group of 6 people of different backgrounds, such as *Industrial Design* and *Marketing*.",
+            "Project developed for the ***Reader Challenge***."
+          ]
+        },
+        {
+          "name": "**Participant**, Hackathon <Hack> 3.0 Puebla.",
+          "date": "April 2018",
+          "accomplishments": [
+            "Developed a **Java** application that searches through **Twitter** and identifies possible costumers for a bank insurance from BBVA.",
+            "Outputs both a CSV and a Txt file with the username of the person, the tweet and the location of it, both the place and the coordinates.",
+            "Collaborated within a group of 4 people, all developers.",
+            "Project developed for the ***CRM Challenge*** from *BBVA Bancomer*."
+          ]
+        }
+      ]
+    }
+  ]
+}

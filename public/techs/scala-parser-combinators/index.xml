@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scala Parser Combinators on Oscar De Alva</title>
+    <link>https://oscardealva.com/techs/scala-parser-combinators/</link>
+    <description>Recent content in Scala Parser Combinators on Oscar De Alva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Oscar De Alva</copyright>
+    <lastBuildDate>Sun, 05 Jul 2020 16:22:59 -0500</lastBuildDate>
+    
+	<atom:link href="https://oscardealva.com/techs/scala-parser-combinators/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Search Engine for Cranfield Collection</title>
+      <link>https://oscardealva.com/portfolio/search_cran/</link>
+      <pubDate>Sun, 05 Jul 2020 16:22:59 -0500</pubDate>
+      
+      <guid>https://oscardealva.com/portfolio/search_cran/</guid>
+      <description>A search engine that was based upon the Inverted Index technique along with the Boolean Retrieval Model for querying the Cranfield Test Collection.
+The Scala programming language was used for the implementation of the mentioned techniques. Also, the Scala Parser Combinators library was used for creating a parser and a language that allowed to successfully read both the test collection and the user&amp;rsquo;s query.
+For the parser&amp;rsquo;s query, the AND, OR and NOT boolean operations were implemented, along with their precedence, and the usage of parenthesis to group together operations.</description>
+    </item>
+    
+  </channel>
+</rss>
