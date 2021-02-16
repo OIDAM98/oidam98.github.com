@@ -1,6 +1,6 @@
 ---
 title: "#CloudResumeChallenge"
-description: Personal website for 
+description: Personal website
 date: "2020-09-11T17:51:52-05:00"
 jobDate: 2020
 work: [website, cloud, full stack]

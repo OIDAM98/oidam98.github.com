@@ -11,6 +11,6 @@ Welcome!
 I'm Oscar De Alva!
 
 New graduate of Computer System's Engineering at UDLAP, Mexico.
-Tech enthusiast, aspiring Data Engineer and JRPGs lover. 
+Tech enthusiast, aspiring Data Engineer/FP Programmer and JRPGs lover. 
 
 [Get to know me better](/about "Get to know me better").
