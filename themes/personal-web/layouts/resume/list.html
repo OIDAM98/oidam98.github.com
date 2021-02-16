@@ -4,12 +4,12 @@
 
 <div class="resume-content">
   {{ .Content }}
+
+  {{ partial "resume/skills" .}}
   
   {{ partial "resume/jobs" .}}
   
   {{ partial "resume/education" .}}
-  
-  {{ partial "resume/skills" .}}
 
 </div>
 

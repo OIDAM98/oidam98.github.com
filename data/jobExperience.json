@@ -1,6 +1,16 @@
 {
   "jobs": [
     {
+      "name": "Enroute Systems",
+      "date": "October 2020 - Present",
+      "role": "BI Engineer",
+      "description": "Lead engineer for the migration of a Java Spring backend to Looker for the creation of different reports. Cooperated with UI/UX teams to create different dashboards within **Looker** for the company’s clients. Empowered different teams to use Looker for their own reporting needs through documentation, courses, knowledge transfers, and shared-service work.",
+      "tasks": [
+        "Use of Looker’s **LookML** language to model the **Snowflake** database.",
+        "Helped with the development of a **Java Spring** application to test Looker’s API endpoint and compare its data with Production environment, to ensure data correctness during the migration process."
+      ]
+    },
+    {
       "name": "NUBIX",
       "date": "August 2019 - May 2020",
       "role": "Junior Developer",
