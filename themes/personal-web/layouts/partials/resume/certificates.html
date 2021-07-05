@@ -1,0 +1,17 @@
+<h2>Certificates</h2>
+
+<section class="certificates-container">
+  {{range .Site.Data.certificates.certificates }}
+  <section class="certificate">
+    <div class="certificate-image">
+      <img title="{{.subtitle}}" src="{{ .img | relURL }}" alt="{{ .img | relURL }}">
+    </div>
+    <hr>
+    <div class="certificate-info">
+      <h4>{{.name}}</h4>
+      <p><i>By: {{.company}}</i></p>
+      <p>{{.dates}}</p>
+    </div>
+  </section>
+  {{end}}
+</section>

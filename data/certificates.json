@@ -1,0 +1,16 @@
+{
+  "certificates": [
+    {
+      "name": "Azure Fundamentals Certificate",
+      "company": "Microsoft",
+      "img": "images/certs/azure-fund.png",
+      "dates": "July/2021"
+    },
+    {
+      "name": "LookML Developer Certificate",
+      "company": "Looker",
+      "img": "images/certs/looker.png",
+      "dates": "Nov/2020 - Mar/2022"
+    }
+  ]
+}
