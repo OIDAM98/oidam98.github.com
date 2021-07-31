@@ -10,7 +10,7 @@ Nice to meet you! :wave:
 
 My name is Oscar. I have been programming since the beginning of my college life and I feel very enthusiastic about learning new topics, both related and non-related to technology.
 
-My programming career has been very wide; ranging from **Backend developer**, using *JS* with *Node* and *AWS Lambdas*, in a telemedicine startup, to currently a **BI Engineer**, using *Looker* with some backend tasks with *Java Spring*, as a contractor.
+My programming career has been diverse; ranging from **Backend developer**, using *JS* with *Node* and *AWS Lambdas*, in a telemedicine startup (with some Q&A tasks at the very start), to currently a **BI Engineer**, using *Looker* with some backend tasks with *Java Spring*, as a contractor.
 
 Currently I am very excited about using *Scala* and learning more about *Functional Programming*, along with its use cases in common software problems.
 
