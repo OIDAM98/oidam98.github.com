@@ -10,7 +10,8 @@ Welcome!
 
 I'm Oscar De Alva!
 
-New graduate of Computer System's Engineering at UDLAP, Mexico.
-Tech enthusiast, aspiring Data Engineer/FP Programmer and JRPGs lover. 
+Currently I'm a BI Engineer using Looker and some Java Spring here and there.
+I've been enjoying learning and using Scala along with Category Theory, specifically the Cats ecosystem.
+Tech and Functional Programming enthusiast and JRPGs lover.
 
 [Get to know me better](/about "Get to know me better").

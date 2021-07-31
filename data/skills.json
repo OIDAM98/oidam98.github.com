@@ -20,6 +20,7 @@
     {
       "type": "Backend Development",
       "set": [
+        "Spring Boot",
         "Node.js",
         "Express.js",
         "Http4s",
