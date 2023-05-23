@@ -58,16 +58,7 @@ jobs:
           npm install
 
       - name: Build with Hugo
-        env:
-          # For maximum backward compatibility with Hugo modules
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cleanDestinationDir
+        run: hugo --minify
 
   # Deployment job
       - name: Deploy
